@@ -1,5 +1,6 @@
 # Projeto Paygo-ACBr-SACFiscal-Nuvem Fiscal
 
+![Demo PayGO Flutter](https://github.com/sacfiscal/WebTEFMercadoPago/blob/main/img/logo.png)
 
 
 ## Demo PayGO Flutter
@@ -16,7 +17,7 @@ Este projeto visa acelerar a estratégia da Software House na adoção do androi
 
 ## Estrutura do Projeto
 
-
+![Demo PayGO Flutter]https://github.com/sacfiscal/paygo_flutter/blob/main/docs/images/estrutura.png
 
 - Commons: Camadas de base, utilizadas nas demais camadas do projeto.
 	- Constantes: Configurações de acesso à api da Nuvem Fiscal e do banco de dados SQLite criado na aplicação
@@ -53,21 +54,31 @@ Aqui temos os endpoints utilizados para geração consulta do cnpj, geração da
 
 1 - Na primeira execução do app, será solicitado o CNPJ da empresa, que deverá estar previamente cadastrada na API da Nuvem Fiscal, pela própria Software House.
 
-
-
 2 - Após a validação do CNPJ na API da Nuvem Fiscal, será solicitado login (usuário: admin/senha: admin) para acesso ao app.
 
-
+![Demo PayGO Flutter](https://github.com/sacfiscal/paygo_flutter/blob/main/docs/images/login.png)
 
 3 - Na tela principal temos acesso aos cadastros e às configurações. Inicialmente deve ser configurado o ambiente de emissão, a série de NFCe a ser utilizada e a última numeração para sequência da NFC-e.
 
+![Demo PayGO Flutter](https://github.com/sacfiscal/paygo_flutter/blob/main/docs/images/login.png)
+
 4 - Na aba de Impressão, escolhemos a impressora, via bluetooth que será utilizada nas impressões.
 
-5 - Na tela de venda, após inserir os produtos, ocorre a finalização da venda com o pagamento via TEF ou dinheiro e na sequência a emissão da NFC-e.
-O XML autorizado é baixado e salvo no banco dedados local e a impressão do DANFECe se dá consumindo o endpoint de ESCPOS na API da Nuvem Fiscal, e mandando para o componente ACBrPOSPrinter.
-Os comprovantes de transações TEF impressos também são gravados no banco de dados local do app.
+![Demo PayGO Flutter](https://github.com/sacfiscal/paygo_flutter/blob/main/docs/images/config.png)
 
-6 - O aplicativo possui a implementação da inutilização de numeração e cancelamento da NFCe.
+
+5 - Na tela de venda, após inserir os produtos, ocorre a finalização da venda com o pagamento via TEF ou dinheiro e na sequência a emissão da NFC-e.
+
+![Demo PayGO Flutter](https://github.com/sacfiscal/paygo_flutter/blob/main/docs/images/venda.png)
+
+6 - O XML autorizado é baixado e salvo no banco dedados local e a impressão do DANFECe se dá consumindo o endpoint de ESCPOS na API da Nuvem Fiscal, e mandando para o componente ACBrPOSPrinter.
+
+7 - Os comprovantes de transações TEF impressos também são gravados no banco de dados local do app.
+
+8 - O aplicativo possui a implementação da inutilização de numeração e cancelamento da NFCe.
+
+![Demo PayGO Flutter](https://github.com/sacfiscal/paygo_flutter/blob/main/docs/images/inutilizacao.png)
+
 
 ## Licença
 
