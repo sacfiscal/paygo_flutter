@@ -1,6 +1,6 @@
 # Projeto Paygo-ACBr-SACFiscal-Nuvem Fiscal
 
-![Demo PayGO Flutter](https://github.com/sacfiscal/WebTEFMercadoPago/blob/main/img/logo.png)
+![Demo PayGO Flutter](https://github.com/sacfiscal/paygo_flutter/blob/main/img/logo.png)
 
 
 ## Demo PayGO Flutter
