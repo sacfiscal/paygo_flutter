@@ -1,0 +1,12 @@
+# flutter pub run flutter_native_splash:create
+
+flutter_native_splash:
+  color: "#292929"
+  image: assets/images/splash/PayGO_splash_android_dark.png
+  color_dark: "#292929"
+  image_dark: assets/images/splash/PayGO_splash_android_white.png
+
+  android_12:
+    image: assets/images/splash/PayGO_splash_android_12_icon.png
+    color: "#292929"
+    icon_background_color: "#292929"
