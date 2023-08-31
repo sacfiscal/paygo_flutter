@@ -17,7 +17,7 @@ Este projeto visa acelerar a estratégia da Software House na adoção do androi
 
 ## Estrutura do Projeto
 
-![Demo PayGO Flutter]https://github.com/sacfiscal/paygo_flutter/blob/main/docs/images/estrutura.png
+![alt text](https://www.sacfiscal.com.br/paygo/flutter/estrutura.png)
 
 - Commons: Camadas de base, utilizadas nas demais camadas do projeto.
 	- Constantes: Configurações de acesso à api da Nuvem Fiscal e do banco de dados SQLite criado na aplicação
